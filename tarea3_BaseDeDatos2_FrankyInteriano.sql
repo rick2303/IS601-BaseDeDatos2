@@ -109,7 +109,7 @@ end;
 
 /*Procedimientos almacenados
 a.  calculadora que debe recibir tres parametros de entrada, uno que 
-contenga la operación a realizar (SUMA, RESTA, MULTIPLICACION, 
+contenga la operaciÃ³n a realizar (SUMA, RESTA, MULTIPLICACION, 
 DIVISION), num1, num2 y declare un parametro de retorno*/
 
 CREATE OR REPLACE PROCEDURE Calculadora 
@@ -262,7 +262,7 @@ begin
             
             end if;
             if  :old.manager_id is null then
-                update departments set manager_id= null
+                update departments set manager_id= 200
                 where department_id = dato;
             end if;
                  
